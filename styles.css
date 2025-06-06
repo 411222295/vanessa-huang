@@ -232,3 +232,54 @@ footer a:hover {
         gap: 20px;
     }
 }
+
+/* Portfolio Styles */
+.portfolio-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.portfolio-section h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.portfolio-section .tools {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.portfolio-category {
+    margin: 1rem 0;
+}
+
+.portfolio-category h4 {
+    color: #34495e;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.portfolio-list {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.portfolio-list li {
+    margin: 0.5rem 0;
+}
+
+.portfolio-list a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.portfolio-list a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
